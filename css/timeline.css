@@ -68,7 +68,7 @@ h1 {
 .timeline ul li div {
   position: relative;
   bottom: 0;
-  width: 700px;
+  width: 630px;
   padding: 15px;
   background: #f45b69;
 }
@@ -93,7 +93,7 @@ h1 {
 }
 
 .timeline ul li:nth-child(even) div {
-  left: -739px;
+  left: -670px;
   /* left: -439px; */
 
 }
