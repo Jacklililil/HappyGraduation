@@ -523,6 +523,7 @@ img {
     height: 500rem;
     border-left: 0.5rem solid #fff;
     border-right: 0.5rem solid #fff;
+
     transform: skewY(45deg) translate3d(-62rem, 0rem, 0);
     box-shadow: 2rem 0 1rem -1rem rgba(17, 14, 18, 0.5), inset 2rem 0 1rem -1rem rgba(17, 14, 18, 0.5);
   }
@@ -543,6 +544,7 @@ img {
   wall1 painting {
     width: 200rem;
     height: 126rem;
+    
     transform: translate3d(50rem, -0rem, 30rem) rotateY(-90deg);
   }
 
