@@ -173,13 +173,16 @@
     -webkit-text-fill-color: transparent;
     -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000), color-stop(0.5, #000), color-stop(1, transparent));
     transition: background-position 1s, background-color 1s;
-    text-align: center;
-    font-size: calc(28vw + 1rem);
-    font-weight: 400;
+    /* text-align: center; */
+    /* font-size: calc(28vw + 1rem); */
+    font-size: calc(16vw + 1rem);
+    font-weight: 500;
     line-height: 1;
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/tw-o.png"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/tw6-o.png"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/tw5-o.png");
     background-size: 45vw auto, 45vw auto, 30vw auto;
     background-repeat: repeat-x;
+    background-repeat: repeat-y;
+
     background-position: 0px 15%, 200px 25%, -50px 2vw;
   }
   
