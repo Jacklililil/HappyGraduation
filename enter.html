@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>土木1805</title>
+    <link rel="stylesheet" href="css/enter.css">
+    <script src="./vue.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="js/vue.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    
+    <!-- <script>
+    new Vue({
+        el: '#app',
+        data() {
+        return {
+            bg: 'bio'
+        }
+        }
+    })
+    </script> -->
+</head>
+<body>
+    <div id="app">
+        <div :class="['bg', bg]">
+          <header>
+            <nav>
+              <ul>
+                <li><a class="link-bio" href="#bio" @click="bg = 'bio'">Bio</a></li>
+                <li><a class="link-projects" href="#projects" @click="bg = 'projects'">Projects</a></li>
+                <li><a class="link-find-me" href="#findme" @click="bg = 'find-me'">Find Me</a></li>
+              </ul>
+            </nav>
+
+            <div class="transition transition-bio"></div>
+            <div class="transition transition-projects"></div>
+            <div class="transition transition-find-me"></div>
+            <!-- <h1>土木1805</h1> -->
+          </header>
+          <div class="dots dots1"></div>
+          <div class="dots dots2"></div>
+          <main>
+            <transition name="slide-fade" mode="out-in">
+              <h1 key="bio" v-if="bg==='bio'">土木1805</h1>
+              <!-- <p key="bio" v-if="bg==='bio'">Hi! I'm a bio page.</p> -->
+
+              <h1 key="projects" v-if="bg==='projects'">毕业快乐</h1>
+              <!-- <p key="projects" v-if="bg==='projects'">This is a projects page.</p> -->
+
+              <h1 key="find-me" v-if="bg==='find-me'">前程似锦</h1>
+              <!-- <p key="find-me" v-if="bg==='find-me'">See <a href="https://pehaa.com" target="_blank" rel="noopener">pehaa.com</a> for the complete website (built with Nuxt.js).</p> -->
+            
+            </transition>
+          </main>
+        </div>
+      </div>
+</body>
+
+<script type = "text/javascript" src="js/enter.js"></script>
+
+</html>

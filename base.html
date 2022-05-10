@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!-- <html lang="en"  dir="ltr"> -->
+<html lang="es"  dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>土木1805</title>
+    <link rel="stylesheet" href="css/base.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type = "text/javascript" src="js/base.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="tm1805" class="gradient-text">土木1805 Gallery</h1><br>
+        <!-- <h1>Balkan Style <br> 
+            <span>[ Portfolio Gallery ]</span>
+        </h1> -->
+        <!-- <span>Balkan Style</span> -->
+    </header>
+
+    
+
+    <div class="container">
+        <!-- <h1>Gallery</h1> -->
+      
+        <div class="gallery-wrap">
+          <div class="item item-1"></div>
+          <div class="item item-2"></div>
+          <div class="item item-3"></div>
+          <div class="item item-4"></div>
+          <div class="item item-5"></div>
+        </div>
+       </div>
+      
+      <!-- <div class="social">
+        <a href="https://twitter.com/StefCharle" target="_blank">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/149103/twitter.svg" alt="">
+        </a>
+      </div> -->
+
+    <!-- <base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/wanaka-tree.jpg">
+    <div id="carousel">
+        <figure id="spinner">
+            <img src="wanaka-tree.jpg" alt>
+            <img src="still-lake.jpg" alt>
+            <img src="pink-milford-sound.jpg" alt>
+            <img src="paradise.jpg" alt>
+            <img src="morekai.jpg" alt>
+            <img src="milky-blue-lagoon.jpg" alt>
+            <img src="lake-tekapo.jpg" alt>
+            <img src="milford-sound.jpg" alt>
+        </figure>
+    </div> -->
+
+    <!-- <base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/wanaka-tree.jpg"> -->
+    <div id="carousel">
+        <figure id="spinner">
+            <img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e101925b3f744b31815d4b36f34f1ec8~tplv-k3u1fbpfcp-watermark.image?" alt>
+            <img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/70b0ef35cf6a4333a0137d3e1c93ec77~tplv-k3u1fbpfcp-watermark.image?" alt>
+            <img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2398f130202f433bb831a486213e29e7~tplv-k3u1fbpfcp-watermark.image?" alt>
+            <img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a9c351dc3d8e4cbab98875a1e862348c~tplv-k3u1fbpfcp-watermark.image?" alt>
+            <img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2bd713edfd89442cbabe147ec22d14c8~tplv-k3u1fbpfcp-watermark.image?" alt>
+            <img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ee2513ff86d2439d8101937277ffc221~tplv-k3u1fbpfcp-watermark.image?" alt>
+            <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1d4b003290454c3b86b6468275ad31bb~tplv-k3u1fbpfcp-watermark.image?" alt>
+            <img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/308dbcfda95c4473b041ffe6ea824015~tplv-k3u1fbpfcp-watermark.image?" alt>
+        </figure>
+    </div>
+
+    <span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
+    <span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+
+
+      <!-- 下面是钟表 -->
+      <!-- <div id="Bigclock">
+        <div id="clock" class="progress-clock" >
+            <button class="progress-clock__time-date" data-group="d" type="button">
+                <small data-unit="w">Sunday</small><br>
+                <span data-unit="mo">January</span>
+                <span data-unit="d">1</span>
+            </button>
+            <button class="progress-clock__time-digit" data-unit="h" data-group="h" type="button">12</button><span class="progress-clock__time-colon">:</span><button class="progress-clock__time-digit" data-unit="m" data-group="m" type="button">00</button><span class="progress-clock__time-colon">:</span><button class="progress-clock__time-digit" data-unit="s" data-group="s" type="button">00</button>
+            <span class="progress-clock__time-ampm" data-unit="ap">AM</span>
+            <svg class="progress-clock__rings" width="256" height="256" viewBox="0 0 256 256">
+                <defs>
+                    <linearGradient id="pc-red" x1="1" y1="0.5" x2="0" y2="0.5">
+                        <stop offset="0%" stop-color="hsl(343,90%,55%)" />
+                        <stop offset="100%" stop-color="hsl(323,90%,55%)" />
+                    </linearGradient>
+                    <linearGradient id="pc-yellow" x1="1" y1="0.5" x2="0" y2="0.5">
+                        <stop offset="0%" stop-color="hsl(43,90%,55%)" />
+                        <stop offset="100%" stop-color="hsl(23,90%,55%)" />
+                    </linearGradient>
+                    <linearGradient id="pc-blue" x1="1" y1="0.5" x2="0" y2="0.5">
+                        <stop offset="0%" stop-color="hsl(223,90%,55%)" />
+                        <stop offset="100%" stop-color="hsl(203,90%,55%)" />
+                    </linearGradient>
+                    <linearGradient id="pc-purple" x1="1" y1="0.5" x2="0" y2="0.5">
+                        <stop offset="0%" stop-color="hsl(283,90%,55%)" />
+                        <stop offset="100%" stop-color="hsl(263,90%,55%)" />
+                    </linearGradient>
+                </defs> -->
+                <!-- Days of Month -->
+                <!-- <g data-units="d">
+                    <circle class="progress-clock__ring" cx="128" cy="128" r="74" fill="none" opacity="0.1" stroke="url(#pc-red)" stroke-width="12" />
+                    <circle class="progress-clock__ring-fill" data-ring="mo" cx="128" cy="128" r="74" fill="none" stroke="url(#pc-red)" stroke-width="12" stroke-dasharray="465 465" stroke-dashoffset="465" stroke-linecap="round" transform="rotate(-90,128,128)" />
+                </g> -->
+                <!-- Hours of Day -->
+                <!-- <g data-units="h">
+                    <circle class="progress-clock__ring" cx="128" cy="128" r="90" fill="none" opacity="0.1" stroke="url(#pc-yellow)" stroke-width="12" />
+                    <circle class="progress-clock__ring-fill" data-ring="d" cx="128" cy="128" r="90" fill="none" stroke="url(#pc-yellow)" stroke-width="12" stroke-dasharray="565.5 565.5" stroke-dashoffset="565.5" stroke-linecap="round" transform="rotate(-90,128,128)" />
+                </g> -->
+                <!-- Minutes of Hour -->
+                <!-- <g data-units="m">
+                    <circle class="progress-clock__ring" cx="128" cy="128" r="106" fill="none" opacity="0.1" stroke="url(#pc-blue)" stroke-width="12" />
+                    <circle class="progress-clock__ring-fill" data-ring="h" cx="128" cy="128" r="106" fill="none" stroke="url(#pc-blue)" stroke-width="12" stroke-dasharray="666 666" stroke-dashoffset="666" stroke-linecap="round" transform="rotate(-90,128,128)" />
+                </g> -->
+                <!-- Seconds of Minute -->
+                <!-- <g data-units="s">
+                    <circle class="progress-clock__ring" cx="128" cy="128" r="122" fill="none" opacity="0.1" stroke="url(#pc-purple)" stroke-width="12" />
+                    <circle class="progress-clock__ring-fill" data-ring="m" cx="128" cy="128" r="122" fill="none" stroke="url(#pc-purple)" stroke-width="12" stroke-dasharray="766.5 766.5" stroke-dashoffset="766.5" stroke-linecap="round" transform="rotate(-90,128,128)" />
+                </g>
+            </svg>
+        </div>
+      </div> -->
+
+
+
+    <!-- 模糊四图片阵列 -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+
+    <section class="hero-section">
+      <div class="card-grid">
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fd8e9b3b8a884588aff873eff80bd1ce~tplv-k3u1fbpfcp-watermark.image?)"></div>
+          <div class="card__content">
+            <p class="card__category">Memory</p>
+            <!-- <h3 class="card__heading">Example Card Heading</h3> -->
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/acac8c3c1fc342babe0c74ac5bf6aa74~tplv-k3u1fbpfcp-watermark.image?)"></div>
+          <div class="card__content">
+            <p class="card__category">Memory</p>
+            <!-- <h3 class="card__heading">Example Card Heading</h3> -->
+          </div>
+        </a>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e360db411224416d8e3aa3b482c83681~tplv-k3u1fbpfcp-watermark.image?)"></div>
+          <div class="card__content">
+            <p class="card__category">Memory</p>
+            <!-- <h3 class="card__heading">Example Card Heading</h3> -->
+          </div>
+        </li>
+        <a class="card" href="#">
+          <div class="card__background" style="background-image: url(https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/42acb29b39f544f8a573103dd749bd26~tplv-k3u1fbpfcp-watermark.image?)"></div>
+          <div class="card__content">
+            <p class="card__category">Memory</p>
+            <!-- <h3 class="card__heading">Example Card Heading</h3> -->
+          </div>
+        </a>
+      <div>
+    </section>
+
+    <div class="wrapper">
+      <!-- 一只可爱的小狗狗 -->
+      <!-- <!DOCTYPE html> -->
+      <!-- <html lang="es" dir="ltr"> -->
+        <head>
+          <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+          <meta charset="utf-8"><link rel="stylesheet" type="text/css" href="main.css">
+        </head>
+        <div id="body1">
+          <div class="main1"><div class="dog">
+            <div class="dog__paws">
+              <div class="dog__bl-leg leg">
+                <div class="dog__bl-paw paw"></div>
+                <div class="dog__bl-top top"></div>
+              </div>
+                <div class="dog__fl-leg leg">
+                  <div class="dog__fl-paw paw"></div>
+                  <div class="dog__fl-top top"></div>
+                </div>
+                <div class="dog__fr-leg leg">
+                  <div class="dog__fr-paw paw"></div>
+                  <div class="dog__fr-top top"></div>
+                </div>
+              </div>
+              <div class="dog__body"><div class="dog__tail"></div>
+            </div>
+            <div class="dog__head">
+              <div class="dog__snout">
+                <div class="dog__nose"></div>
+                <div class="dog__eyes">
+                  <div class="dog__eye-l"></div>
+                  <div class="dog__eye-r"></div>
+                </div>
+              </div>
+            </div>
+            <div class="dog__head-c">
+              <div class="dog__ear-l">
+
+              </div><div class="dog__ear-r">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- </html> -->
+
+
+      <!-- 学校的logo -->
+      <div class="CSU1"> 
+        <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e10c12338e674e59aa648cbd7b5e7c46~tplv-k3u1fbpfcp-watermark.image?">
+      </div>
+
+      <!-- <div class="CSU2"> 
+        <img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4bb04026b116439bb4fbf4424d1ca92a~tplv-k3u1fbpfcp-watermark.image?">
+      </div> -->
+
+
+      <footer class="page-footer">
+        <span font-size="20">为作者点个关注吧~ </span>
+        <a href="https://www.cnblogs.com/lidu2000/" target="_blank">
+          <img width="24" height="24" src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/703d9fadd5f046b1842d00ab00ffb986~tplv-k3u1fbpfcp-watermark.image?" alt="blog">
+        </a>
+        <a href="https://github.com/Jacklililil" target="_blank">
+          <img width="30" height="24" src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2d076fcde47347c8a07c0a2e4321a356~tplv-k3u1fbpfcp-watermark.image?" alt="github">
+        </a>
+        <a href="https://juejin.cn/user/396295960538381?utm_source=gold_browser_extension" target="_blank">
+          <img width="24" height="24" src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2f1de7d92e8347e4b46bdd5ea40d6752~tplv-k3u1fbpfcp-watermark.image?" alt="juejin">
+        </a>
+      </footer>
+      
+    </div>
+
+
+    
+</body>
+</html>
