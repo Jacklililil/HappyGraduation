@@ -17,5 +17,3 @@
 - horizon.html：水平图片展览馆，展示每个xhb的照片
 
 ---
-
-欢迎大家star、fork~~
